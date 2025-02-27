@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 let navLinks = document.querySelectorAll('.nav-link');
 
 const nav = document.querySelector('.nav');
@@ -73,4 +82,6 @@ document.addEventListener("DOMContentLoaded", function () {
     animateStars();
 });
 
-// Mouse tracker
+
+AOS.init();
+
