@@ -1,17 +1,6 @@
 
 /* Home Section */
 
-
-.home-info{
-  transform: translateY(100%);
-  opacity: 0;
-  transition: all 2s ease-out;
-}
-.home-info.show{
-  transform: translateY(0);
-  opacity: 1;
-}
-
 .home-info h2{
   font-size: 50px;
   font-family: var(--font-2);
