@@ -1,7 +1,8 @@
   .pricing-cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    place-items: center ;
+    place-items: center;
+    gap: 20px;
   }
   .pricing-card:nth-child(1){
     max-height: 640px;

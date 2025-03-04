@@ -27,6 +27,15 @@
         padding: 5px 10px;
         font-size: 16px;
     }
+        /* service section */
+        .pricing-cards{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+        }
+        .pricing-card:nth-child(2){
+            order: 1;
+        }
 }
 
 @media (max-width: 990px){
@@ -69,4 +78,86 @@
         opacity: 1 !important;
         transform: translateX(0) !important;
     }    
+
+    .home-info{
+        text-align: center;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .home-details h1{
+        font-size: 90px;
+    }
+
+    .home-details h2{
+        font-size: 40px;
+    }
+    
+    .home-info p{
+        font-size: 16px;
+    }
+    .home-btn{
+        align-self: center;
+    }
+    .cards{
+        gap: 12px;
+    }
+    .card{
+        padding: 20px;
+    }
+    .service-text{
+        font-size: 16px;
+    }
+    .contact-heading{
+        font-size: 60px !important;
+    }
+    .social-link{
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-link i{
+        font-size: 18px;
+    }
+
+    .copyright-msg{
+        font-size: 16px;
+    }
+
+    /* About section */
+    .about-section h2{
+        font-size: 60px;
+    }
+    .about-section p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 790px){
+    #home{
+        height: 70vh;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .contact-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contact-left{
+        display: flex;
+        justify-content: center;
+    }
+    .contact-heading{
+        font-size: 2rem !important;
+        text-align: center;
+    }
+    .footer-content{
+        flex-direction: column;
+        gap: 14px;
+    }
+    .footer-content .logo{
+        margin-right: 0;
+    }
 }

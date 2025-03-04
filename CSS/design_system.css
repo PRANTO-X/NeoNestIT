@@ -18,6 +18,7 @@
 
 section{
   padding: 50px 0;
+  overflow: hidden;
 }
 
 .bg-1{
@@ -447,6 +448,7 @@ footer{
   grid-template-columns: repeat(2,1fr);
   margin: auto;
   place-items: center;
+  gap: 30px;
 }
 
 .service-heading{
