@@ -13,6 +13,20 @@
     .nav-link a::after{
         bottom: -15px;
     }
+    /* service section */
+    .pricing-cards{
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .pricing-card:nth-child(2){
+        order: 1;
+    }
+    .pricing-card{
+        width: 100%;
+    }
+    .pricing-card:nth-child(2){
+        width: 100%;
+      }
 }
 
 
@@ -27,15 +41,7 @@
         padding: 5px 10px;
         font-size: 16px;
     }
-        /* service section */
-        .pricing-cards{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            gap: 10px;
-        }
-        .pricing-card:nth-child(2){
-            order: 1;
-        }
+        
 }
 
 @media (max-width: 990px){
@@ -163,11 +169,16 @@
     }
     .footer-content{
         flex-direction: column;
-        padding: 15px;
+        padding: 20px;
         gap: 14px;
     }
     .footer-content .logo{
         margin-right: 0;
+    }
+    /* Service section */
+    .pricing-cards{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
     }
 }
 
